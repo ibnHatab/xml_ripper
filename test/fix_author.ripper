@@ -1,6 +1,7 @@
 on_path('document/author') do |author|
   author.text = 'JRRT'
 end
+
 on_path('document/chapter/title') do |title|
   puts '1>> ' + title.text
 end
